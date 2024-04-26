@@ -37,7 +37,3 @@ function loadNotFoundPage() {
         main.innerHTML = '<p>Page not found. Return to <a href="#home">Home</a>.</p>';
     }
 }
-
-document.addEventListener('DOMContentLoaded', function() {
-    routeChange();  // Handles the routing based on the current hash
-});
