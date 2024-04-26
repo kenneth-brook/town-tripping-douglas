@@ -4,28 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Town Tripping</title>
-    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/main.css"> <!-- Pre-load main CSS -->
 </head>
 <body>
-    <header>
-        <!-- Keyword search -->
-    </header>
-    
-    <main class="main-content">
-        <div id="main-container">
-            <div class="background-circle2"></div>
-            <div class="background-circle"></div> 
-            <div id="circle-container"></div>
-        </div>
-        <!-- Other content for main -->
-    </main>
-    
-    <footer>
-        <!-- Visitor Information Center and other info -->
-    </footer>
-    
+    <div id="splash-container">
+        <button id="start-button" class="start-button">Tap to Start</button>
+    </div>
+    <script src="stagecomponents/stage.js" defer></script> <!-- Pre-load stage.js -->
     <script src="scripts/router.js"></script>
-    <script src="scripts/store.js"></script>
-    <script src="scripts/app.js"></script>
 </body>
 </html>

@@ -30,6 +30,36 @@ body {
     background: #fff; /* Default background color */
 }
 
+/*   index splash   */
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4; /* Example background color */
+}
+
+#splash-container {
+    text-align: center;
+}
+
+.start-button {
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.start-button:hover {
+    background-color: #0056b3;
+}
+/*   index splash end   */
+
 header {
     background-color: #007037; /* Placeholder: deep green, pick the actual color from the image */
     padding: 1rem;
